@@ -1,0 +1,124 @@
+<?xml version="1.0"?>
+<dwml version="1.0" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://preview.weather.gov/xml/schema/DWML.xsd">
+  <head>
+    <product srsName="WGS 1984" concise-name="time-series" operational-mode="official">
+      <title>NOAA's National Weather Service Forecast Data</title>
+      <field>meteorological</field>
+      <category>forecast</category>
+      <creation-date refresh-frequency="PT1H">2022-11-01T23:27:53Z</creation-date>
+    </product>
+    <source>
+      <more-information>https://preview.weather.gov/xml/</more-information>
+      <production-center>Meteorological Development Laboratory<sub-center>Product Generation Branch</sub-center></production-center>
+      <disclaimer>http://www.nws.noaa.gov/disclaimer.html</disclaimer>
+      <credit>https://www.weather.gov/</credit>
+      <credit-logo>https://www.weather.gov/logorequest</credit-logo>
+      <feedback>https://www.weather.gov/contact</feedback>
+    </source>
+  </head>
+  <data>
+    <location>
+      <location-key>point1</location-key>
+      <point latitude="40.77" longitude="-73.95"/>
+    </location>
+    <moreWeatherInformation applicable-location="point1">https://forecast-v3.weather.gov/point/40.77,-73.95</moreWeatherInformation>
+    <time-layout time-coordinate="local" summarization="none">
+      <layout-key>k-p12h-n15-1</layout-key>
+      <start-valid-time>2022-11-01T08:00:00-04:00</start-valid-time>
+      <end-valid-time>2022-11-01T20:00:00-04:00</end-valid-time>
+      <start-valid-time>2022-11-01T20:00:00-04:00</start-valid-time>
+      <end-valid-time>2022-11-02T08:00:00-04:00</end-valid-time>
+      <start-valid-time>2022-11-02T08:00:00-04:00</start-valid-time>
+      <end-valid-time>2022-11-02T20:00:00-04:00</end-valid-time>
+      <start-valid-time>2022-11-02T20:00:00-04:00</start-valid-time>
+      <end-valid-time>2022-11-03T08:00:00-04:00</end-valid-time>
+      <start-valid-time>2022-11-03T08:00:00-04:00</start-valid-time>
+      <end-valid-time>2022-11-03T20:00:00-04:00</end-valid-time>
+      <start-valid-time>2022-11-03T20:00:00-04:00</start-valid-time>
+      <end-valid-time>2022-11-04T08:00:00-04:00</end-valid-time>
+      <start-valid-time>2022-11-04T08:00:00-04:00</start-valid-time>
+      <end-valid-time>2022-11-04T20:00:00-04:00</end-valid-time>
+      <start-valid-time>2022-11-04T20:00:00-04:00</start-valid-time>
+      <end-valid-time>2022-11-05T08:00:00-04:00</end-valid-time>
+      <start-valid-time>2022-11-05T08:00:00-04:00</start-valid-time>
+      <end-valid-time>2022-11-05T20:00:00-04:00</end-valid-time>
+      <start-valid-time>2022-11-05T19:00:00-04:00</start-valid-time>
+      <end-valid-time>2022-11-06T07:00:00-05:00</end-valid-time>
+      <start-valid-time>2022-11-06T07:00:00-05:00</start-valid-time>
+      <end-valid-time>2022-11-06T19:00:00-05:00</end-valid-time>
+      <start-valid-time>2022-11-06T19:00:00-05:00</start-valid-time>
+      <end-valid-time>2022-11-07T07:00:00-05:00</end-valid-time>
+      <start-valid-time>2022-11-07T07:00:00-05:00</start-valid-time>
+      <end-valid-time>2022-11-07T19:00:00-05:00</end-valid-time>
+      <start-valid-time>2022-11-07T19:00:00-05:00</start-valid-time>
+      <end-valid-time>2022-11-08T07:00:00-05:00</end-valid-time>
+      <start-valid-time>2022-11-08T07:00:00-05:00</start-valid-time>
+      <end-valid-time>2022-11-08T19:00:00-05:00</end-valid-time>
+    </time-layout>
+    <time-layout time-coordinate="local" summarization="none">
+      <layout-key>k-p6h-n13-2</layout-key>
+      <start-valid-time>2022-11-01T14:00:00-04:00</start-valid-time>
+      <end-valid-time>2022-11-01T20:00:00-04:00</end-valid-time>
+      <start-valid-time>2022-11-01T20:00:00-04:00</start-valid-time>
+      <end-valid-time>2022-11-02T02:00:00-04:00</end-valid-time>
+      <start-valid-time>2022-11-02T02:00:00-04:00</start-valid-time>
+      <end-valid-time>2022-11-02T08:00:00-04:00</end-valid-time>
+      <start-valid-time>2022-11-02T08:00:00-04:00</start-valid-time>
+      <end-valid-time>2022-11-02T14:00:00-04:00</end-valid-time>
+      <start-valid-time>2022-11-02T14:00:00-04:00</start-valid-time>
+      <end-valid-time>2022-11-02T20:00:00-04:00</end-valid-time>
+      <start-valid-time>2022-11-02T20:00:00-04:00</start-valid-time>
+      <end-valid-time>2022-11-03T02:00:00-04:00</end-valid-time>
+      <start-valid-time>2022-11-03T02:00:00-04:00</start-valid-time>
+      <end-valid-time>2022-11-03T08:00:00-04:00</end-valid-time>
+      <start-valid-time>2022-11-03T08:00:00-04:00</start-valid-time>
+      <end-valid-time>2022-11-03T14:00:00-04:00</end-valid-time>
+      <start-valid-time>2022-11-03T14:00:00-04:00</start-valid-time>
+      <end-valid-time>2022-11-03T20:00:00-04:00</end-valid-time>
+      <start-valid-time>2022-11-03T20:00:00-04:00</start-valid-time>
+      <end-valid-time>2022-11-04T02:00:00-04:00</end-valid-time>
+      <start-valid-time>2022-11-04T02:00:00-04:00</start-valid-time>
+      <end-valid-time>2022-11-04T08:00:00-04:00</end-valid-time>
+      <start-valid-time>2022-11-04T08:00:00-04:00</start-valid-time>
+      <end-valid-time>2022-11-04T14:00:00-04:00</end-valid-time>
+      <start-valid-time>2022-11-04T14:00:00-04:00</start-valid-time>
+      <end-valid-time>2022-11-04T20:00:00-04:00</end-valid-time>
+    </time-layout>
+    <parameters applicable-location="point1">
+      <precipitation type="liquid" units="inches" time-layout="k-p6h-n13-2">
+        <name>Liquid Precipitation Amount</name>
+        <value>0.00</value>
+        <value>0.00</value>
+        <value>0.00</value>
+        <value>0.00</value>
+        <value>0.00</value>
+        <value>0.00</value>
+        <value>0.00</value>
+        <value>0.00</value>
+        <value>0.00</value>
+        <value>0.00</value>
+        <value>0.00</value>
+        <value>0.00</value>
+        <value>0.00</value>
+      </precipitation>
+      <probability-of-precipitation type="12 hour" units="percent" time-layout="k-p12h-n15-1">
+        <name>12 Hourly Probability of Precipitation</name>
+        <value>15</value>
+        <value>1</value>
+        <value>0</value>
+        <value>0</value>
+        <value>0</value>
+        <value>0</value>
+        <value>0</value>
+        <value>3</value>
+        <value>12</value>
+        <value>12</value>
+        <value>20</value>
+        <value>16</value>
+        <value>12</value>
+        <value>17</value>
+        <value>18</value>
+      </probability-of-precipitation>
+    </parameters>
+  </data>
+</dwml>
